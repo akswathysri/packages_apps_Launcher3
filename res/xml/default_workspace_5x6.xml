@@ -70,9 +70,6 @@
         <favorite launcher:uri="tel:123" />
         <favorite launcher:uri="#Intent;action=android.intent.action.CALL_BUTTON;end" />
 
-        <favorite
-            launcher:packageName="com.android.dialer"
-            launcher:className="com.android.dialer.DialtactsActivity" />
     </resolve>
 
     <favorite
@@ -108,8 +105,5 @@
             launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_BROWSER;end" />
         <favorite launcher:uri="http://www.example.com/" />
 
-        <favorite
-            launcher:packageName="com.android.browser"
-            launcher:className="com.android.browser.BrowserActivity" />
     </resolve>
 </favorites>
